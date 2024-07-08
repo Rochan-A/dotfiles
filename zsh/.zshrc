@@ -101,21 +101,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Add this to your .bashrc/.zshrc:
 
-export PATH="/Users/rochan/.gem/ruby/3.1.0/bin:$PATH"
-
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.1.2
-
-eval "$(rbenv init - zsh)"
-export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"
-
-export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
-
 alias vi='nvim'
 alias vim='nvim'
-
-export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig"
 
 eval "$(fzf --zsh)"
 
