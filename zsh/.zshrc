@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:/Library/TeX/texbin/pdflatex:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/rochan/.oh-my-zsh"
+export ZSH="/home/rochanavlur/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 alias vi='nvim'
 alias vim='nvim'
 
-eval "$(fzf --zsh)"
+source <(fzf --zsh)
 
 if [ -z "$TMUX" ]
 then
